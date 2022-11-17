@@ -31,11 +31,11 @@ const restarNota = ()=>{
                 { text }
             </div>
             
-                <button onClick={ sumarNota }>
+                <button className=" btn btn-primary" onClick={ sumarNota }>
                     Sumar nota 
                 </button>
                 <br />
-                <button onClick={ restarNota }>
+                <button className=" btn btn-primary" onClick={ restarNota }>
                     Restar nota 
                 </button>
         </div>
